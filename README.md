@@ -21,3 +21,13 @@ The key objective of the Factory Method is extensibility. Factory Methods are fr
 
 [Example](/Factory.js)
 
+#### Abstract Factory
+
+Provides an interface for creating families of related or dependent objects without specifying their concrete classes.  
+
+An Abstract Factory creates objects that are related by a common theme. In object-oriented programming a Factory is an object that creates other objects. An Abstract Factory abstracts out a theme which is shared by the newly created objects.  
+
+Suppose we have two Abstract Factories whose task it is to create page controls, such as, buttons, textboxes, radio buttons, and listboxes. One is the Light Factory which creates controls that are white and the other the Dark Factory which creates controls that are black. Both Factories creates the same types of controls, but they differ in color, which is their common theme. This is an implementation of the Abstract Factory pattern.  
+
+[Example](/AbstractFactory.js)
+ 
