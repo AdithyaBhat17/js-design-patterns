@@ -1,6 +1,8 @@
 # js-design-patterns
 Examples for design patterns in javascript  
 
+## Creational Patterns
+
 #### Singleton
 
 Ensures a class has only one instance and provides a global point of access to it.  
@@ -40,7 +42,20 @@ The Builder pattern allows a client to construct a complex object by specifying 
 
 The AbstractBuilder is not used because JavaScript does not support abstract classes. However, the different Builders must implement the same multistep interface for the Director to be able to step through the assembly process  
 
-[Example](/Builder.js)
+[Example](/Builder.js)  
+
+## Behavioral Patterns
+
+#### State
+
+Allows an object to alter its behavior when its internal state changes.  
+
+[Example](/State.js)
+
+
+
+
+
 
 
  
