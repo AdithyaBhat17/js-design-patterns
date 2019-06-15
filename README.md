@@ -50,7 +50,15 @@ The AbstractBuilder is not used because JavaScript does not support abstract cla
 
 Allows an object to alter its behavior when its internal state changes.  
 
-[Example](/State.js)
+[Example](/State.js)  
+
+#### Observer
+
+Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.  
+
+The Observer pattern offers a subscription model in which objects subscribe to an event and get notified when the event occurs. This pattern is the cornerstone of event driven programming, including JavaScript. The Observer pattern facilitates good object-oriented design and promotes loose coupling.  
+
+[Example](/Observer.js)
 
 
 
