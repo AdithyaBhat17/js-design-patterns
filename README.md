@@ -44,6 +44,16 @@ The AbstractBuilder is not used because JavaScript does not support abstract cla
 
 [Example](/Builder.js)  
 
+## Structural Patterns
+
+### Decorator 
+
+Extends an object's behavior dynamically. The ability to add new behavior at runtime is accomplished by a decorator object which wraps itself around the original object.  
+
+They provide flexibility to statistically typed languages by allowing runtime changes as opposed to inheritance which takes place at compile time.  
+
+[Example](/Decorator.js)
+
 ## Behavioral Patterns
 
 #### State
