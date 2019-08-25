@@ -46,6 +46,12 @@ The AbstractBuilder is not used because JavaScript does not support abstract cla
 
 ## Structural Patterns
 
+## Adapter
+
+The Adapter pattern translates one interface (an object's properties and methods) to another. Adapters allows programming components to work together that otherwise wouldn't because of mismatched interfaces.   
+
+One scenario where this can be used is refactoring in which parts of the program are rewritten with an improved interface, but the old code still expects the original interface.
+
 ### Decorator 
 
 Extends an object's behavior dynamically. The ability to add new behavior at runtime is accomplished by a decorator object which wraps itself around the original object.  
